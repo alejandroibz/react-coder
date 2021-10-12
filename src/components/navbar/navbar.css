@@ -1,0 +1,33 @@
+.navHeader {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.712);
+}
+
+.divLogoNav {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoNavText {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.logoNavImg {
+    width: 100px;
+}
+
+.enlacesNav {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
