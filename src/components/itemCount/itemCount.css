@@ -1,0 +1,48 @@
+.containerItemCount {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itemCount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.count {
+    width: 40px;
+    background-color: rgba(64, 64, 255, 0.876);
+    border: hidden;
+    text-align: center;
+}
+
+.btnCount {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(0, 0, 36, 0.671);
+    border: none;
+    font-weight:bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.aggCarrito {
+    background-color: rgba(64, 64, 255, 0.876);
+    border: solid 2px green;
+    margin: 2rem 0 0 0;
+    width: 180px;
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.aggCarrito:hover {
+    transform:translate(1px,1px);
+    
+} 
