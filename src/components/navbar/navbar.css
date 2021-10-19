@@ -19,15 +19,17 @@
 .logoNavText {
     font-size: 2rem;
     font-weight: 900;
+    color: white;
 }
 
 .logoNavImg {
     width: 100px;
+    filter: invert();
 }
 
 .enlacesNav {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 1rem;
     font-size: 1.3rem;
 }

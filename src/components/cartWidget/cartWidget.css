@@ -1,0 +1,16 @@
+.imgCarrito {
+	width: 60px;
+    filter: invert();
+}
+
+.divCarrito {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+	font-size: 1.5rem;
+    color: white;
+}

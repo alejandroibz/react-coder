@@ -1,6 +1,6 @@
 import './navbar.css';
-import LogoNav from '../img/logoZapa1.png';
-
+import LogoNav from '../../img/logoZapa1.png';
+import CartWidget from "../cartWidget/cartWidget";
 
 export const Navbar = () => {
 
@@ -16,6 +16,7 @@ export const Navbar = () => {
                 <a href="/#" className="enlacesNav">Productos</a>
                 <a href="/#" className="enlacesNav">Contacto</a>
             </div>
+            <CartWidget/>
         </nav>
     );
 

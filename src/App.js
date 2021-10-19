@@ -1,17 +1,20 @@
 import './App.css';
-import {Navbar} from './components/navbar/navbar'
-
+import { Navbar } from './components/navbar/navbar'
+import { ItemListContainer } from './components/itemListContainer/itemListContainer';
 
 function App() {
   return (
-    <header className="headerIndex">
-      <Navbar />
-      <div className="divHeaderIndex">
-        <h2 className="tituloLideres">Somos lideres en el mercado!</h2>
-      </div>
-      
-    </header>
+    <div className='App'>
+      <header className="headerIndex">
+        <Navbar />
+        <ItemListContainer />
+      </header>
+
+    </div>
   );
 }
 
+
+
 export default App;
+
